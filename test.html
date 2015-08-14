@@ -8,14 +8,14 @@
 
       document.onreadystatechange = function() {
         if (document.readyState === 'complete') {
-          document.getElementById('text').innerHTML = 'Completed!'
+          document.getElementById('test').innerHTML = 'Completed!'
         }
       }
 
       // Already completed
       if (document.readyState === 'complete') {
         console.log('Already completed');
-        document.getElementById('text').innerHTML = 'Already Completed!'
+        document.getElementById('test').innerHTML = 'Already Completed!'
       }
 
     </script>
